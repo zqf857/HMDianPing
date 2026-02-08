@@ -7,7 +7,7 @@ public class LoginConstant {
     /**
      * 用户
      */
-    public static final String USER = "session_user";
+    public static final String USER = "user";
     /**
      * 验证码
      */
@@ -20,4 +20,8 @@ public class LoginConstant {
      * 新用户名前缀
      */
     public static final String USER_NICK_NAME_PREFIX = "user_";
+    /**
+     * headers 中 token key
+     */
+    public static final String HEADERS_TOKEN_KEY = "authorization";
 }
